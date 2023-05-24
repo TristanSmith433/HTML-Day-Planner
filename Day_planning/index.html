@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <!--Tristan Smith 000825589
+      June 13th
+      This file sets the day month and year of the day planner it also allows 
+      the user to enter 5 different tasks for the day as well as a time for each 
+  I, Tristan Smith, 000825589 certify that this material is my original work.  
+  No other person's work has been used without due acknowledgement.
+  -->
+
+
+    <link rel="stylesheet" href="Planning.css">
+  
+  
+  
+  </head>
+<body>
+
+<h1>Daily Planner.</h1>
+
+
+<form action="planner.php">
+
+  <!--Daily Planning form  -->
+  <label for="Day">Day </label>
+  <input type="number" id="Day" name="Day" min="0"max="31">
+  <!--Shows the month of planning-->
+  
+  <label for="Month">Month </label>
+  <select name="Months" id="Months">
+    <option value="January">January</option>
+    <option value="February">February</option>
+    <option value="March">March</option>
+    <option value="April">April</option>
+    <option value="May">May</option>
+    <option value="June">June</option>
+    <option value="July">July</option>
+    <option value="August">August</option>
+    <option value="September">September</option>
+    <option value="October">October</option>
+    <option value="November ">November</option>
+    <option value="December ">December</option>
+  </select>
+
+<!-- The year of the Planned events  -->
+  <label for="Years">Year </label>
+  <input type="number" id="Years" name="Years" min="1970"max="9999">
+
+ 
+<!--
+the five tasks for the daily planner.
+-->
+<br>
+<br>
+<br>
+
+<input type="time" id="Time1" name="Time1">
+  <label for="Task1">Task1: </label>
+  <input type="text" id="Task1" name="Task1"  ><br><br>
+
+
+  
+  <input type="time" id="Time2" name="Time2">
+  <label for="Task2">Task2</label>
+  <input type="Task2" id="Task2" name="Task2">
+  <br><br>
+
+  <input type="time" id="Time3" name="Time3">
+  <label for="Task3">Task3</label>
+  <input type="text" id="Task3" name="Task3">
+  <br>
+  <br>
+  
+  <input type="time" id="Time4" name="Time4">
+  <label for="Task4">Task4</label>
+  <input type="text" id="Task4" name="Task4"> 
+  <br>
+  <br>
+  
+  <input type="time" id="Time5" name="Time5">
+  <label for="Task5">Task5</label>
+  <input type="text" id="Task5" name="Task5">
+  <br>
+  <br>
+
+<!--submits the html file .
+-->
+
+
+  <input type="submit" value="Submit" id = "Submit_Button">
+</form>
+
+</body>
+</html>
